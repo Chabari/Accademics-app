@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "884949274085",
+    "firebase_url": "https://glacacademics.firebaseio.com",
+    "project_id": "glacacademics",
+    "storage_bucket": "glacacademics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884949274085:android:a5059a147a4b123b",
+        "android_client_info": {
+          "package_name": "com.glacacademics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884949274085-0ad3hd0d9v3emoj31epfq7uqmr17q4e6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.glacacademics",
+            "certificate_hash": "963619f2e86a2df20e797993774aadfe25c4f183"
+          }
+        },
+        {
+          "client_id": "884949274085-ingvjmrb7v8ap9de9qm6er7gqftpfc32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBBABl6N--CLz6fF8Wmv9f6adPVwrHLHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884949274085-ingvjmrb7v8ap9de9qm6er7gqftpfc32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.glacacademics.Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/acc" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingTop="4dp"
+                android:textSize="16dp"
+                android:text="Please enter your details here to login" />
+
+            <EditText
+                android:id="@+id/edtemailLogin"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:ems="10"
+                android:hint="Email"
+                android:drawableLeft="@drawable/emailicon"
+                android:textAlignment="center"
+                android:layout_marginTop="16dp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/edtpasswordlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:textAlignment="center"
+                android:drawableLeft="@drawable/passicon"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/tvsignuplogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signup here"
+                android:textColor="@color/blue"
+                android:textSize="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="20dp"
+                tools:text="Signup here" />
+
+            <TextView
+                android:id="@+id/tvforgotpasslogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="20dp"
+                tools:text="Forgot Password?" />
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shapes"
+                android:elevation="8dp"
+                android:text="Login"
+                tools:text="Login" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="universities">
+        <item>Select University</item>
+       <item>Universty of Kabianga</item>
+        <item>Universty of Nairobi</item>
+        <item>Universty of Eldoret</item>
+        <item>Kenyatta University</item>
+    </string-array>
+    <string-array name="courses">
+        <item>Select Course</item>
+        <item>Computer Science</item>
+        <item>Education Science</item>
+    </string-array>
+    <string-array name="yos">
+        <item>Select YOS</item>
+        <item>Year 1</item>
+        <item>Year 2</item>
+        <item>Year 3</item>
+        <item>Year 4</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="type">
+        <item>select transport</item>
+        <item>Car</item>
+        <item>Boda Boda</item>
+        <item>Tuk Tuk</item>
+        <item>Others</item>
+    </string-array>
+</resources>
